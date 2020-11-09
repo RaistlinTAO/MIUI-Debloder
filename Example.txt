@@ -1,0 +1,68 @@
+adb shell pm disable-user com.miui.systemAdSolution
+adb shell pm disable-user com.miui.analytics
+adb shell pm disable-user com.xiaomi.gamecenter.sdk.service
+adb shell pm disable-user com.xiaomi.gamecenter
+adb shell pm disable-user com.miui.player
+adb shell pm disable-user com.miui.video
+adb shell pm disable-user com.miui.notes
+adb shell pm disable-user com.miui.translation.youdao
+adb shell pm disable-user com.miui.translation.kingsoft
+adb shell pm disable-user com.android.email
+adb shell pm disable-user com.xiaomi.scanner
+adb shell pm disable-user com.miui.hybrid
+adb shell pm disable-user com.miui.bugreport
+adb shell pm disable-user com.milink.service
+adb shell pm disable-user com.android.browser
+adb shell pm disable-user com.miui.gallery
+adb shell pm disable-user com.miui.yellowpage
+adb shell pm disable-user com.xiaomi.midrop
+adb shell pm disable-user com.miui.virtualsim
+adb shell pm disable-user com.xiaomi.payment
+adb shell pm disable-user com.mipay.wallet
+adb shell pm disable-user com.android.soundrecorder
+adb shell pm disable-user com.miui.screenrecorder
+adb shell pm disable-user com.android.wallpaper
+adb shell pm disable-user com.miui.voiceassist
+adb shell pm disable-user com.miui.fm
+adb shell pm disable-user com.miui.touchassistant
+adb shell pm disable-user com.android.cellbroadcastreceiver
+adb shell pm disable-user com.xiaomi.mitunes
+adb shell pm disable-user com.xiaomi.pass
+adb shell pm disable-user com.android.thememanager
+adb shell pm disable-user com.android.wallpaper
+adb shell pm disable-user com.android.wallpaper.livepicker
+adb shell pm disable-user com.miui.klo.bugreport
+
+
+adb shell pm disable-user com.android.calendar
+adb shell pm disable-user com.miui.miservice
+adb shell pm disable-user com.mi.health
+adb shell pm disable-user com.miui.securitycenter
+adb shell pm disable-user com.miui.cloudbackup
+adb shell pm disable-user com.miui.personalassistant
+adb shell pm disable-user com.miui.smarttravel
+adb shell pm disable-user com.xiaomi.account
+adb shell pm disable-user com.mfashiongallery.emag
+adb shell pm disable-user com.miui.cleanmaster
+adb shell pm disable-user com.xiaomi.drivemode
+adb shell pm disable-user com.xiaomi.market
+adb shell pm disable-user com.android.quicksearchbox
+adb shell pm disable-user com.xiaomi.finddevice
+adb shell pm disable-user com.miui.securitycore
+adb shell pm disable-user com.miui.cloudservice
+adb shell pm disable-user com.xiaomi.xmsf
+
+adb shell pm props ro.product.name
+ro.product.device begonia
+ro.product.model begonia
+
+olive:/ # getprop ro.product.brand
+Xiaomi
+olive:/ # getprop ro.product.name
+olive
+olive:/ # getprop ro.product.device
+olive
+olive:/ # getprop ro.product.manufacturer
+Xiaomi
+olive:/ # getprop ro.product.model
+Redmi 8
